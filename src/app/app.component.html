@@ -1,14 +1,3 @@
-
-<div *ngIf="usuario; then logout else login"></div>
-
-<ng-template #logout>
-  Bienvenido {{ usuario}}
-</ng-template>
-
-<ng-template #login>
-  Por favor ingrese.<br>
-
-  <button class="btn btn-outline-primary" type="button" (click)="usuario = 'Enrico'">Ingresar</button>
-</ng-template>
+<h1>Graficas Dinamicas</h1>
 
 <router-outlet></router-outlet>
