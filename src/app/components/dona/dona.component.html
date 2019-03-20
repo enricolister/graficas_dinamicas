@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-8">
+      <div style="display: block">
+          <canvas baseChart
+            [data]="doughnutChartData"
+            [labels]="doughnutChartLabels"
+            [chartType]="doughnutChartType">
+          </canvas>
+        </div>
+  </div>
+  <div class="col-4">
+    <button class="btn btn-primary btn-block" (click)="randomize()">Update</button>
+  </div>
+  </div>
+

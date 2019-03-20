@@ -6,7 +6,7 @@ import { Color, BaseChartDirective, Label } from 'ng2-charts';
 @Component({
   selector: 'app-linea',
   templateUrl: './linea.component.html',
-  styleUrls: ['./linea.component.css']
+  styleUrls: []
 })
 export class LineaComponent {
 
